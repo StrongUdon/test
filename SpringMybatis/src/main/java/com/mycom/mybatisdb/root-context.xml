@@ -6,7 +6,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 	<context:component-scan base-package="com.mycom.mybatisdb"/>
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
-				<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+				<property nanknme="driver" value="oracle.jdbc.driver.OracleDriver" />
 				<property name="url" value="jdbc:oracle:thin:@192.168.0.46:1521:xe" />
 				<property name="username" value="hr" />
 				<property name="password" value="hr" /> 
